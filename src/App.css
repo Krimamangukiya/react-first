@@ -1,38 +1,161 @@
-.App {
-  text-align: center;
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.w-100{
+  width: 100%;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.flex{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+.w-50{
+  width: 50%;
+}
+.logo{
+  width: 40px;
+  margin-left: 25px;
+  margin-top: 10px;
+}
+.menu{
+  margin-left: 35px;
+  color: black;
+  margin-top: 20px;
+}
+button{
+  width: 115px;
+  height: 35px;
+  background-color: white;
+  border-radius: 10px;
+  border: 1px solid rgb(255, 152, 0);
+  margin-left: 35px;
+  margin-top: 15px;
+  margin-right: 15px;
+}
+button:hover{
+  background-color: rgb(255, 152, 0);
   color: white;
+  transition: all ease-in-out 0.10s;
 }
-
-.App-link {
-  color: #61dafb;
+.menu:hover{
+  color: rgb(255, 152, 0);
+  transition: 0.2s;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.j-end{
+  justify-content: end;
+}
+.title{
+  font-size: 105px;
+  margin-top: 100px;
+  text-align: center;
+  font-weight:900;
+  color: rgb(32, 35, 41);
+  line-height: 1.1;
+  margin-bottom: 100px;
+}
+.bg{
+  background-color: rgb(32, 35, 41);
+  height: 1000px;
+  width: 100%;
+}
+.w-1200{
+  width: 1200px;
+  margin: auto;
+  flex-wrap: wrap;
+  display: flex;
+}
+.card{
+  width: calc(50% - 25px);
+  color: white;
+  background-color: rgb(60, 62, 68);
+  border-radius: 10px;
+  margin-right: 25px;
+  overflow: hidden;
+}
+.c-top{
+  margin-top: 60px;
+}
+.w-40{
+  width: 40%;
+}
+.w-40 img{
+  width: 230px;
+  height: 235px;
+}
+.w-60{
+  width: 60%;
+}
+.name1{
+  color: white;
+  font-weight: 800;
+  margin-left: 10px;
+  font-size: 27px;
+}
+.name1:hover{
+  color: rgb(255, 152, 0);
+}
+.desc{
+  margin-left: 12px;
+  font-weight: 600;
+}
+.main{
+  color: grey;
+  margin-left: 12px;
+  margin-top: 25px;
+}
+.descl{
+  margin-left: 12px;
+}
+.descl:hover{
+  color:  rgb(255, 152, 0);
+}
+.descf{
+  margin-left: 12px;
+  font-size: 18px;
+}
+.descf:hover{
+  color:  rgb(255, 152, 0);
+}
+.footer{
+  background-color: black;
+  height: 300px; 
+}
+.f-text{
+  color: rgb(158, 158, 158);
+  font-size: 15px;
+  margin-top: 40px;
+  margin-left: 40px;
+}
+.f-text:hover{
+  color: rgb(255, 152, 0);
+  transition: 0.2s;
+}
+.ml{
+  margin-left: 400px;
+}
+.f-text2{
+  margin-left: 610px;
+  padding-top: 20px;
+  color: rgb(158, 158, 158);
+  font-size: 15px;
+}
+.f-text2:hover{
+  color: rgb(255, 152, 0);
+  transition: all ease-in-out 0.5s;
+}
+.w-30{
+  width: 30%;
+}
+.m-t{
+  margin-top: 20px;
+}
+.m{
+  margin: 10px;
+}
+.ionc{
+  margin-left: 600px;
+  margin-top:10px ;
+}
+.m-l{
+  margin-left: 550px;
 }
